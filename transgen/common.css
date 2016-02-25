@@ -1,0 +1,67 @@
+/* CSS Document */
+
+/*--------------------------main---------------------------------*/
+#main{background:url(../images/bigBg.png) repeat-x;max-width:1440px;}
+.wid980{width:980px;}
+/*--------------------------top---------------------------------*/
+.topLi li{height:30px;line-height:30px;padding:0 8px 0 35px;background:url(../images/imgIcon.png) no-repeat;border-left:1px solid #ccc;color:#666666;}
+.topLi li a{color:#666666;}
+.topLi li a.ying{display:block;color:#FF9900;}
+.topLi li a:hover{text-decoration:underline;}
+.topLi li.li_1{background-position:10px 8px;font-size:16px;color:#f99101;font-family:Arial;}
+.topLi li.li_2{background-position:10px -24px;}
+.topLi li.li_3{background-position:10px -57px;}
+.topLi li.li_4{background-position:10px -90px;}
+.topLi li.li_5{background-position:10px -120px;font-weight:bold;border-left:2px solid #ff9900;margin-left:10px;}
+.topLi li.li_6{background-position:5px -151px;font-weight:bold;color:#ff9900;}
+
+/*--------------------------header---------------------------------*/
+#header{padding:18px 0 10px 0;}
+.cont,.ti{height:40px;border:none;}
+.cont{background:url(../images/search.png) no-repeat;width:415px;padding-left:10px;font-family:Arial;color:#bfbfbf;*width:350px;line-height:40px;}
+.ti{background:url(../images/search.png) no-repeat right center;width:42px;}
+.nav{background:url(../images/nav.jpg) no-repeat;width:594px;height:31px;padding-top:1px;*MARGIN-LEFT:30px}
+.nav li{padding:5px 22px;display:inline;}
+.nav li a.f16{color:#fff;font-family:"微软雅黑";font-family:黑体;display:block;width:100px;height:21px;line-height:20px;text-align:center;}
+.nav li a.f16{text-indent:2px;}
+.nav li a.f16:hover{font-size:18px;}
+
+
+.dZ{height:30px;line-height:30px;}
+.dZ a{color:#666}
+.dZ a:hover{text-decoration:underline;color:#ec8e00;}
+.tou1{right:-9px;}
+.topLi li.tou1{background:none;border:none;pointer-events:none;}
+.margin1{margin:8px 0 20px 115px;*width:515px;*margin-left:100px;}
+
+
+.navSon a.zuo{width:215px;background:#cea400;height:30px;line-height:30px;text-indent:20px;color:#333;border-bottom:1px solid #b2b2b2;background:rgba(206, 164, 0, 0.7) no-repeat scroll 0 0 !important;}
+.navSon a.zuo:hover{color:#fff;background:#ec9c00;}
+.navSon a.you{width:340px;background:#929292;height:30px;line-height:30px;text-indent:20px;color:#fff;border-bottom:1px solid #b2b2b2;background:rgba(146, 146, 146, 0.7) no-repeat scroll 0 0 !important;}
+.navSon a.you:hover{color:#666;background:#e5e5e5;}
+.navSon{z-index:10;width:555px;left:0;top:30px;}
+.left144{left:-144px;}
+.left249{left:-249px;}
+.left393{left:-393px;}
+
+/*--------------------------footer---------------------------------*/
+#footer{max-width:1440px;background:url(../images/reXx.png) repeat-x;padding:15px 0 10px 0;}
+.foot p{color:#545454;padding:2px 0;}
+.foot p a{color:#545454;}
+
+
+/* 焦点图 */
+.focus{width:980px;height:410px;position:relative;}
+.f426x240{width:980px;height:410px;overflow:hidden}
+.f426x240 li{height:410px;}
+.f426x240 img{width:980px;height:410px;}
+.rslides{width:100%;position:relative;list-style:none;padding:0}
+.rslides_nav{ display:none;}
+.rslides_tabs{ display:none;}
+
+
+/*********分页效果***********/
+.page{width:auto; text-align:right; margin-bottom:10px;}
+.page a{height:22px;line-height:22px;width:22px; padding:3px 10px; text-align:center;font-family:Arial;background:#c8c8c8;margin-left:5px;display:inline;color:#4d4d4d;cursor:pointer;}
+.page a:hover{text-decoration:none; color:#fff; background:#6d6d6d;}
+.page_a{background:#f77106 !important; text-decoration:none !important; color:#fff !important;}

@@ -1,0 +1,35 @@
+﻿/* CSS Document */
+body, h1, h2, h3, h4, h5, h6, hr, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button,input, textarea, th, td, div, p, a{margin:0;padding:0;}
+body{font:12px/1.5 arial,"微软雅黑";}
+ul{list-style:none;}
+img{border:none;}
+a{text-decoration:none;outline:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+table{border-collapse:collapse;border-spacing:0;}
+
+.tC{text-align:center;}
+.tR{text-align:right;}
+.dN{display:none;}
+.oH{overflow:hidden;}
+.pR{position:relative;}
+.pA{position:absolute;}
+.mAuto{margin:0 auto;}
+.c6{color:#666;}
+.cF{color:#ff6600;}
+.c8{color:#898989;}
+/*浮动*/
+.left{float:left;}
+.right{float:right;}
+.clearfix:after{visibility:hidden;display:block;clear:both;height:0;font-size:0;content:".";}
+.clearfix{zoom:1;}
+
+.f14{font-size:14px;}
+.f16{font-size:16px;}
+.f18{font-size:18px;}
+.f20{font-size:20px;}
+.f36{font-size:36px;}
+.f24{font-size:24px;}
+
+.fW{font-weight:bold;}
+.fM{font-family:"微软雅黑";}
+.fA{font-family:Arial;}

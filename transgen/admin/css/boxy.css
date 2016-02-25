@@ -1,0 +1,120 @@
+.boxy-wrapper {
+	POSITION: absolute
+}
+.boxy-wrapper .fixed {
+	POSITION: fixed
+}
+.boxy-modal-blackout {
+	POSITION: absolute; BACKGROUND-COLOR: black; TOP: 0px; LEFT: 0px
+}
+.boxy-wrapper {
+	EMPTY-CELLS: show
+}
+.boxy-wrapper .top-left {
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #f2f2f2; PADDING-LEFT: 0px; WIDTH: 7px; PADDING-RIGHT: 0px; HEIGHT: 7px; PADDING-TOP: 0px
+}
+.boxy-wrapper .top-right {
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #f2f2f2; PADDING-LEFT: 0px; WIDTH: 7px; PADDING-RIGHT: 0px; HEIGHT: 7px; PADDING-TOP: 0px
+}
+.boxy-wrapper .bottom-right {
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #f2f2f2; PADDING-LEFT: 0px; WIDTH: 7px; PADDING-RIGHT: 0px; HEIGHT: 7px; PADDING-TOP: 0px
+}
+.boxy-wrapper .bottom-left {
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #f2f2f2; PADDING-LEFT: 0px; WIDTH: 7px; PADDING-RIGHT: 0px; HEIGHT: 7px; PADDING-TOP: 0px
+}
+.boxy-wrapper .top {
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #f2f2f2; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 7px; PADDING-TOP: 0px
+}
+.boxy-wrapper .bottom {
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #f2f2f2; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 7px; PADDING-TOP: 0px
+}
+.boxy-wrapper .left {
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #f2f2f2; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 7px; PADDING-RIGHT: 0px; DISPLAY: table-cell; FLOAT: inherit; HEIGHT: auto; PADDING-TOP: 0px
+}
+.boxy-wrapper .right {
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #f2f2f2; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 7px; PADDING-RIGHT: 0px; DISPLAY: table-cell; FLOAT: inherit; HEIGHT: auto; PADDING-TOP: 0px
+}
+.boxy-wrapper .left {
+	BORDER-RIGHT: #ccc 1px solid
+}
+.boxy-wrapper .right {
+	BORDER-LEFT: #ccc 1px solid
+}
+.boxy-wrapper .top {
+	BORDER-BOTTOM: #ccc 1px solid
+}
+.boxy-wrapper .bottom {
+	BORDER-TOP: #ccc 1px solid
+}
+.boxy-wrapper .title-bar {
+	BACKGROUND-IMAGE: url(topbg.gif); BORDER-BOTTOM: #ccc 1px solid; POSITION: relative; BACKGROUND-COLOR: #f2f2f2
+}
+.boxy-wrapper .title-bar .dragging {
+	CURSOR: move
+}
+.boxy-wrapper .title-bar H2 {
+	BORDER-BOTTOM: 0px; TEXT-ALIGN: left; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; LINE-HEIGHT: 30px; MARGIN: 0px 0px 0px 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 30px; FONT-SIZE: 13px; BORDER-TOP: 0px; FONT-WEIGHT: bold; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+.boxy-wrapper .title-bar .close {
+	POSITION: absolute; COLOR: white; FONT-SIZE: 12px; TOP: 5px; RIGHT: 6px
+}
+.boxy-wrapper .title-bar .close:hover {
+	BACKGROUND-COLOR: #454545
+}
+.boxy-inner {
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: white; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.boxy-content {
+	PADDING-BOTTOM: 15px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; PADDING-TOP: 15px
+}
+.boxy-wrapper .question {
+	LINE-HEIGHT: 160%; MIN-HEIGHT: 40px; WIDTH: 250px; HEIGHT: auto
+}
+.boxy-wrapper .answers {
+	TEXT-ALIGN: right; MARGIN: 15px 0px 0px; HEIGHT: 27px
+}
+.boxy-btn1 {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px solid; PADDING-BOTTOM: 1.9px; LINE-HEIGHT: 15px; PADDING-LEFT: 12px; PADDING-RIGHT: 12px; LETTER-SPACING: 1px; OVERFLOW: visible; BORDER-TOP: 1px solid; CURSOR: pointer; MARGIN-RIGHT: 4px; BORDER-RIGHT: 1px solid; PADDING-TOP: 3px
+}
+.boxy-btn2 {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px solid; PADDING-BOTTOM: 1.9px; LINE-HEIGHT: 15px; PADDING-LEFT: 12px; PADDING-RIGHT: 12px; LETTER-SPACING: 1px; OVERFLOW: visible; BORDER-TOP: 1px solid; CURSOR: pointer; MARGIN-RIGHT: 4px; BORDER-RIGHT: 1px solid; PADDING-TOP: 3px
+}
+.boxy-btn3 {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px solid; PADDING-BOTTOM: 1.9px; LINE-HEIGHT: 15px; PADDING-LEFT: 12px; PADDING-RIGHT: 12px; LETTER-SPACING: 1px; OVERFLOW: visible; BORDER-TOP: 1px solid; CURSOR: pointer; MARGIN-RIGHT: 4px; BORDER-RIGHT: 1px solid; PADDING-TOP: 3px
+}
+.boxy-btn1 {
+	BORDER-BOTTOM-COLOR: #2c3e5f; BACKGROUND-COLOR: #425f99; BORDER-TOP-COLOR: #5a7ec6; COLOR: white; BORDER-RIGHT-COLOR: #2c3e5f; BORDER-LEFT-COLOR: #5a7ec6
+}
+.boxy-btn2 {
+	BORDER-BOTTOM-COLOR: #bbbbbb; BACKGROUND-COLOR: #ece9d8; BORDER-TOP-COLOR: #eeeeee; COLOR: #333333; BORDER-RIGHT-COLOR: #bbbbbb; BORDER-LEFT-COLOR: #eeeeee
+}
+.boxy-btn3 {
+	BORDER-BOTTOM-COLOR: #aaaaaa; PADDING-BOTTOM: 1.9px; BACKGROUND-COLOR: #eaeaea; BORDER-TOP-COLOR: #eaeaea; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; COLOR: #333333; BORDER-RIGHT-COLOR: #aaaaaa; BORDER-LEFT-COLOR: #eaeaea; PADDING-TOP: 3px
+}
+.boxy-btn3:hover {
+	BORDER-BOTTOM-COLOR: #a2adbc; BACKGROUND-COLOR: #cad5eb; BORDER-TOP-COLOR: #ced8e3; BORDER-RIGHT-COLOR: #a2adbc; BORDER-LEFT-COLOR: #ced8e3
+}
+.boxy-btn2:hover {
+	BORDER-BOTTOM: #666 2px solid; BORDER-LEFT: #999 1px solid; BORDER-RIGHT: #999 1px solid
+}
+.boxy-btn1:hover {
+	BORDER-BOTTOM: #666 2px solid; BORDER-LEFT: #999 1px solid; BORDER-RIGHT: #999 1px solid
+}
+.boxy-wrapper .answers {
+	TEXT-ALIGN: center
+}
+._ajax_loading {
+	Z-INDEX: 999999; POSITION: absolute; FILTER: alpha(opacity=70); BACKGROUND-COLOR: #ccc; ZOOM: 1; DISPLAY: block; TOP: 0px; LEFT: 0px; opacity: 0.7
+}
+._ajax_loading ._loading_div {
+	BORDER-BOTTOM: #ccc 2px solid; BORDER-LEFT: #ccc 2px solid; LINE-HEIGHT: 40px; BACKGROUND-COLOR: #fff; MARGIN: auto; WIDTH: 180px; HEIGHT: 40px; FONT-SIZE: 12px; BORDER-TOP: #ccc 2px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #ccc 2px solid
+}
+._ajax_loading ._loading_div IMG {
+	MARGIN: 8px 0px 0px 8px; WIDTH: 25px; FLOAT: left; HEIGHT: 25px
+}
+._ajax_loading ._loading_div SPAN {
+	FLOAT: left; MARGIN-LEFT: 10px
+}
+._ajax_loading IMG {
+	MARGIN: 0px auto; DISPLAY: block; VERTICAL-ALIGN: middle
+}

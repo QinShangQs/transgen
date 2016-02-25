@@ -1,0 +1,8 @@
+User-Agent: *
+Disallow: /uploadfile/
+Disallow: /bbs/
+Disallow: /phpMyAdmin/
+Disallow: /admin/
+Disallow: /en/
+Disallow: /plus/
+Sitemap: http://www.transgen.com.cn/transgen_sitemap.txt

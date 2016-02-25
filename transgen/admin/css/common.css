@@ -1,0 +1,290 @@
+@charset "utf-8";
+HTML {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial, "宋体", tahoma, arial, 宋体, sans-serif; COLOR: #2d465f; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+BODY {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial, "宋体", tahoma, arial, 宋体, sans-serif; COLOR: #2d465f; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+DIV {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial, "宋体", tahoma, arial, 宋体, sans-serif; COLOR: #2d465f; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+DL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial, "宋体", tahoma, arial, 宋体, sans-serif; COLOR: #2d465f; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+DT {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial, "宋体", tahoma, arial, 宋体, sans-serif; COLOR: #2d465f; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+DD {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial, "宋体", tahoma, arial, 宋体, sans-serif; COLOR: #2d465f; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial, "宋体", tahoma, arial, 宋体, sans-serif; COLOR: #2d465f; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+OL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial, "宋体", tahoma, arial, 宋体, sans-serif; COLOR: #2d465f; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+LI {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial, "宋体", tahoma, arial, 宋体, sans-serif; COLOR: #2d465f; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+H1 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial, "宋体", tahoma, arial, 宋体, sans-serif; COLOR: #2d465f; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+H2 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial, "宋体", tahoma, arial, 宋体, sans-serif; COLOR: #2d465f; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+H3 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial, "宋体", tahoma, arial, 宋体, sans-serif; COLOR: #2d465f; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+H4 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial, "宋体", tahoma, arial, 宋体, sans-serif; COLOR: #2d465f; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+H5 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial, "宋体", tahoma, arial, 宋体, sans-serif; COLOR: #2d465f; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+H6 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial, "宋体", tahoma, arial, 宋体, sans-serif; COLOR: #2d465f; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+PRE {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial, "宋体", tahoma, arial, 宋体, sans-serif; COLOR: #2d465f; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+CODE {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial, "宋体", tahoma, arial, 宋体, sans-serif; COLOR: #2d465f; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+FORM {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial, "宋体", tahoma, arial, 宋体, sans-serif; COLOR: #2d465f; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+FIELDSET {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial, "宋体", tahoma, arial, 宋体, sans-serif; COLOR: #2d465f; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+LEGEND {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial, "宋体", tahoma, arial, 宋体, sans-serif; COLOR: #2d465f; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+INPUT {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial, "宋体", tahoma, arial, 宋体, sans-serif; COLOR: #2d465f; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+BUTTON {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial, "宋体", tahoma, arial, 宋体, sans-serif; COLOR: #2d465f; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+TEXTAREA {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial, "宋体", tahoma, arial, 宋体, sans-serif; COLOR: #2d465f; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+P {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial, "宋体", tahoma, arial, 宋体, sans-serif; COLOR: #2d465f; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+BLOCKQUOTE {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial, "宋体", tahoma, arial, 宋体, sans-serif; COLOR: #2d465f; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+TH {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial, "宋体", tahoma, arial, 宋体, sans-serif; COLOR: #2d465f; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+TD {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial, "宋体", tahoma, arial, 宋体, sans-serif; COLOR: #2d465f; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+TABLE {
+	BORDER-COLLAPSE: collapse
+}
+A IMG {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+ADDRESS {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+CAPTION {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+CITE {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+CODE {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+DFN {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+EM {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+TH {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+VAR {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+LI {
+	LIST-STYLE-TYPE: none; LIST-STYLE-IMAGE: none
+}
+CAPTION {
+	TEXT-ALIGN: left
+}
+TH {
+	TEXT-ALIGN: left
+}
+H1 {
+	FONT-SIZE: 100%; FONT-WEIGHT: normal
+}
+H2 {
+	FONT-SIZE: 100%; FONT-WEIGHT: normal
+}
+H3 {
+	FONT-SIZE: 100%; FONT-WEIGHT: normal
+}
+H4 {
+	FONT-SIZE: 100%; FONT-WEIGHT: normal
+}
+H5 {
+	FONT-SIZE: 100%; FONT-WEIGHT: normal
+}
+H6 {
+	FONT-SIZE: 100%; FONT-WEIGHT: normal
+}
+INPUT {
+	FONT-FAMILY: inherit
+}
+BUTTON {
+	FONT-FAMILY: inherit
+}
+TEXTAREA {
+	FONT-FAMILY: inherit
+}
+SELECT {
+	FONT-FAMILY: inherit
+}
+A {
+	OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium; FONT-FAMILY: Arial, "宋体", tahoma, arial, 宋体, sans-serif; COLOR: #2d465f; TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+HTML {
+	OVERFLOW-Y: scroll
+}
+BODY {
+	BACKGROUND: #fff
+}
+.clear {
+	CLEAR: both
+}
+.topBar {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 30px; PADDING-RIGHT: 0px; BACKGROUND: url(../images/common/topBg.png); HEIGHT: 35px; PADDING-TOP: 6px
+}
+.topBar H2 {
+	TEXT-INDENT: -8888px; WIDTH: 279px; BACKGROUND: url(../images/common/topLogo.jpg); HEIGHT: 30px
+}
+.botBar {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 30px; PADDING-RIGHT: 30px; BACKGROUND: url(../images/common/botBg.png); HEIGHT: 26px; PADDING-TOP: 6px
+}
+.botBar H2 {
+	WIDTH: 99px; FLOAT: left
+}
+.botBar H2 A {
+	TEXT-INDENT: -8888px; DISPLAY: block; BACKGROUND: url(../images/common/botUcan.jpg); HEIGHT: 20px
+}
+.botBar P {
+	LINE-HEIGHT: 20px; FLOAT: right; COLOR: #9ca5b7
+}
+.botBar P A {
+	COLOR: #9ca5b7; MARGIN-RIGHT: 12px
+}
+._ajax_loading {
+	Z-INDEX: 999999; POSITION: absolute; FILTER: alpha(opacity=70); BACKGROUND-COLOR: #f2f2f2; ZOOM: 1; DISPLAY: block; TOP: 0px; LEFT: 0px; opacity: 0.7
+}
+._ajax_loading ._loading_div {
+	BORDER-BOTTOM: #ccc 2px solid; BORDER-LEFT: #ccc 2px solid; LINE-HEIGHT: 40px; BACKGROUND-COLOR: #fff; MARGIN: auto; WIDTH: 180px; HEIGHT: 40px; FONT-SIZE: 12px; BORDER-TOP: #ccc 2px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #ccc 2px solid
+}
+._ajax_loading ._loading_div IMG {
+	MARGIN: 8px 0px 0px 8px; WIDTH: 25px; FLOAT: left; HEIGHT: 25px
+}
+._ajax_loading ._loading_div SPAN {
+	FLOAT: left; MARGIN-LEFT: 10px
+}
+._ajax_loading IMG {
+	MARGIN: 0px auto; DISPLAY: block; VERTICAL-ALIGN: middle
+}
+.check_info {
+	BORDER-LEFT: #fee8d6 1px solid; WIDTH: 98%; BORDER-TOP: #fee8d6 1px solid; BORDER-RIGHT: #fee8d6 1px solid
+}
+.check_info TD {
+	BORDER-BOTTOM: #fee8d6 1px solid; TEXT-ALIGN: left; BACKGROUND-COLOR: #fff
+}
+.tuihui_c {
+	TEXT-ALIGN: center; LINE-HEIGHT: 20px; BACKGROUND-COLOR: red; WIDTH: 80px; DISPLAY: inline-block
+}
+.list_img LI {
+	BORDER-BOTTOM: #ccc 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 10px; BACKGROUND-COLOR: #f2f2f2; MARGIN-TOP: 5px; WIDTH: 160px; FLOAT: left; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+.list_img LI IMG {
+	MARGIN-TOP: 10px; CURSOR: pointer
+}
+.list_img LI P {
+	PADDING-BOTTOM: 0px; MARGIN: 5px 0px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.list_img LI .ipt1 {
+	BORDER-BOTTOM: #7f9db9 1px solid; BORDER-LEFT: #7f9db9 1px solid; PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; HEIGHT: 13px; FONT-SIZE: 11px; BORDER-TOP: #7f9db9 1px solid; BORDER-RIGHT: #7f9db9 1px solid; PADDING-TOP: 1px
+}
+.list_img .one_img {
+	POSITION: relative; PADDING-BOTTOM: 10px; MARGIN-TOP: 10px; MARGIN-LEFT: 5px; MARGIN-RIGHT: 5px
+}
+.list_img .img_delete {
+	POSITION: absolute; PADDING-BOTTOM: 0px; MARGIN: 2px; PADDING-LEFT: 0px; WIDTH: 20px; PADDING-RIGHT: 0px; HEIGHT: 20px; TOP: 0px; CURSOR: pointer; RIGHT: 0px; PADDING-TOP: 0px
+}
+.upload_list_add {
+	MARGIN-TOP: 15px; MARGIN-BOTTOM: 15px
+}
+.uploadify-button {
+	TEXT-ALIGN: center; HEIGHT: 40px
+}
+.file_tdname {
+	TEXT-ALIGN: right; WIDTH: 50px
+}
+.file_sort {
+	WIDTH: 120px
+}
+.file_desc {
+	WIDTH: 300px
+}
+.uploadify-queue-item .file_name {
+	WIDTH: 250px
+}
+.arFmtd .uploadify-queue-item TD {
+	BORDER-BOTTOM: 0px; BACKGROUND-COLOR: transparent
+}
+.uploadify-queue-item {
+	BORDER-BOTTOM: #ccc 1px solid; POSITION: relative; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #f5f5f5; MARGIN: 5px auto; PADDING-LEFT: 5px; WIDTH: 95%; PADDING-RIGHT: 5px; FONT: 11px Verdana, Geneva, sans-serif; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 5px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px
+}
+.uploadify-queue-item .img_deletes {
+	POSITION: absolute; PADDING-BOTTOM: 0px; MARGIN: 2px; PADDING-LEFT: 0px; WIDTH: 20px; PADDING-RIGHT: 0px; HEIGHT: 20px; TOP: 12px; CURSOR: pointer; RIGHT: 10px; PADDING-TOP: 0px
+}
+.uploadify-button A {
+	BACKGROUND-IMAGE: url(../images/btn_add.gif); TEXT-ALIGN: center; LINE-HEIGHT: 33px; MARGIN: auto; WIDTH: 143px; DISPLAY: block; HEIGHT: 33px; COLOR: #fff; FONT-SIZE: 16px; FONT-WEIGHT: bold
+}
+.uploadify-button {
+	TEXT-ALIGN: right; MARGIN-RIGHT: 30px
+}
+
+input{ height:24px; line-height:24px; padding:0 2px; vertical-align:middle;}
+.bline{border:1px #ccc dotted;}
+
+.page { width: 100%; height: 28px; text-align: center; margin: 10px auto; }
+.page a { width: auto; padding: 0px 10px; margin-right: 5px; display: inline-block; height: 20px; line-height: 20px; border: 1px solid #dcdddd; background: #FFF; vertical-align: middle; }
+.page a:hover { background: #f2f2f2; margin-right: 5px; text-decoration: none; }
+.page .curr { background: #f2f2f2; margin-right: 5px; text-decoration: none; }
+
+/*编辑器样式 切换标签*/
+.neir
+{
+display: none;
+clear: both;
+}
+.nav_list { padding:0; margin:0;}
+.nav_list li
+{
+display: block;
+width: auto;
+height: 26px; line-height:26px; border:1px #ccc solid; margin-right:10px;
+float: left;
+background: #fff; padding:0 5px; border-bottom: none; cursor:pointer;
+}
+.jinn
+{
+background: #ccc !important;
+}

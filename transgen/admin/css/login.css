@@ -1,0 +1,42 @@
+BODY {
+	BACKGROUND: #e4e4e4; OVERFLOW: hidden
+}
+.botBar {
+	POSITION: absolute; BOTTOM: 0px
+}
+.logBox {
+	MARGIN: 150px auto 0px; WIDTH: 450px; BACKGROUND: url(../images/login/boxBg.png); HEIGHT: 320px; PADDING-TOP: 35px
+}
+.logTit {
+	MARGIN: 0px auto; WIDTH: 221px; BACKGROUND: url(../images/login/boxTit.gif); HEIGHT: 31px
+}
+.logForm {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 55px; PADDING-RIGHT: 0px; PADDING-TOP: 30px
+}
+.iptL {
+	BORDER-BOTTOM: #d9d9d9 1px solid; BORDER-LEFT: #d9d9d9 1px solid; PADDING-BOTTOM: 0px; PADDING-LEFT: 57px; WIDTH: 290px; PADDING-RIGHT: 0px; HEIGHT: 22px; BORDER-TOP: #d9d9d9 1px solid; BORDER-RIGHT: #d9d9d9 1px solid; PADDING-TOP: 4px
+}
+.iptL INPUT {
+	BORDER-BOTTOM: #fff 0px; BORDER-LEFT: #fff 0px; WIDTH: 282px; HEIGHT: 14px; BORDER-TOP: #fff 0px; BORDER-RIGHT: #fff 0px; PADDING-TOP: 2px
+}
+.name {
+	BACKGROUND: url(../images/login/iptName.gif) no-repeat 6px 4px
+}
+.pass {
+	MARGIN-TOP: 15px; BACKGROUND: url(../images/login/iptPass.gif) no-repeat 6px 4px
+}
+.iptYc {
+	MARGIN-TOP: 15px; HEIGHT: 28px
+}
+.iptC {
+	BORDER-BOTTOM: #d9d9d9 1px solid; BORDER-LEFT: #d9d9d9 1px solid; PADDING-BOTTOM: 0px; PADDING-LEFT: 57px; WIDTH: 180px; PADDING-RIGHT: 0px; BACKGROUND: url(../images/login/iptVcode.gif) no-repeat 6px 4px; FLOAT: left; HEIGHT: 22px; BORDER-TOP: #d9d9d9 1px solid; MARGIN-RIGHT: 13px; BORDER-RIGHT: #d9d9d9 1px solid; PADDING-TOP: 4px
+}
+.iptC INPUT {
+	BORDER-BOTTOM: #fff 0px; BORDER-LEFT: #fff 0px; BORDER-TOP: #fff 0px; BORDER-RIGHT: #fff 0px; PADDING-TOP: 1px
+}
+.btnl {
+	MARGIN-TOP: 16px; PADDING-LEFT: 8px; HEIGHT: 22px
+}
+.btns {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; WIDTH: 59px; BACKGROUND: url(../images/login/btn.png); FLOAT: left; HEIGHT: 22px; COLOR: #fff; BORDER-TOP: medium none; CURSOR: pointer; FONT-WEIGHT: 700; MARGIN-RIGHT: 12px; BORDER-RIGHT: medium none
+}
