@@ -1,10 +1,11 @@
 <?php
     @session_start();
     error_reporting(E_ERROR | E_WARNING | E_PARSE);
-	header('Content-Type: text/html; charset=utf-8');
+	//header('Content-Type: text/html; charset=utf-8');
     $mydbhost = "localhost"; //配置主机
     $mydbuser = "root"; //数据库用户
-    $mydbpw = "Aa123456!@#QWE"; //数据库密码
+    //$mydbpw = "Aa123456!@#QWE"; //数据库密码
+    $mydbpw = "root"; 
     $mydbname = "qsj"; //数据库名
     $dbpre = "cn_"; //数据库表前缀
     $conn = mysql_connect($mydbhost, $mydbuser, $mydbpw) or die("服务器连接错误" . mysql_error());
