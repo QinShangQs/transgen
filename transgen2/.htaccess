@@ -1,0 +1,45 @@
+ErrorDocument 404 /404/404.html
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^transgen.com.cn [NC]
+RewriteRule ^(.*)$ http://www.transgen.com.cn/$1 [L,R=301]
+RewriteRule ^index.html$ index.php
+RewriteRule ^about.html$ about.php
+RewriteRule ^products.html$ products.php
+RewriteRule ^products/([0-9]+).html$ products.php?cat=$1
+RewriteRule ^products_show/([0-9]+).html$ products_show.php?sid=$1
+RewriteRule ^faq.html$ faq.php
+RewriteRule ^faq/([0-9]+).html$ faq.php?page=$1
+RewriteRule ^partner.html$ partner.php
+RewriteRule ^news.html$ news.php
+RewriteRule ^service.html$ service.php
+RewriteRule ^service/([0-9]+).html$ service.php?cat=$1
+RewriteRule ^service/([0-9]+)/([0-9]+).html$ service.php?cat=$1&page=$2
+RewriteRule ^shop.html$ shop.php
+RewriteRule ^shop/([a-z]+)/([0-9]+).html$ shop.php?del=$1&did=$2
+RewriteRule ^contact.html$ contact.php
+RewriteRule ^about/([0-9]+).html$ about.php?id=$1
+RewriteRule ^news/([0-9]+).html$ news.php?cat=$1
+RewriteRule ^news/([0-9]+)/([0-9]+).html$ news.php?cat=$1&page=$2
+RewriteRule ^news_show/([0-9]+).html$ news_show.php?id=$1
+RewriteRule ^video.html$ video.php
+RewriteRule ^video/([0-9]+).html$ video.php?page=$1
+RewriteRule ^job.html$ job.php
+RewriteRule ^job_show/([0-9]+).html$ job_show.php?id=$1
+RewriteRule ^map.html$ map.php
+RewriteRule ^search.html$ search.php
+RewriteRule ^search/(.*?)_([0-9]+)_([0-9]+).html$ search.php?fl=$2&key=$1&page=$3
+ExpiresActive On
+ExpiresDefault "access plus 1 weeks"
+ExpiresByType image/x-icon A2592000
+ExpiresByType application/x-javascript A2592000
+ExpiresByType application/javascript A2592000
+ExpiresByType text/css A2592000
+ExpiresByType image/gif A2592000
+ExpiresByType image/png A2592000
+ExpiresByType image/jpeg A2592000
+ExpiresByType text/plain A86400
+ExpiresByType application/x-shockwave-flash A2592000
+ExpiresByType video/x-flv A2592000
+ExpiresByType application/pdf A2592000
+ExpiresByType text/html M86400

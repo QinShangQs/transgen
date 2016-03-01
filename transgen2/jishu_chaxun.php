@@ -1,46 +1,25 @@
 <?php require 'config.inc.php'; ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!Doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>全式金-实验技术委托服务进度查询</title>
-		<base href="<?php echo $weburl;?>" />
-        <link rel="stylesheet" type="text/css" href="css/base.css"/>
-        <link rel="stylesheet" type="text/css" href="css/common.css"/>
-        <link rel="stylesheet" type="text/css" href="css/page.css"/>
-        <link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css"/>
-        <script src="js/jq.js"></script>
-        <script src="js/quanshijin.js"></script>
-        <script src="js/alertbox.js"></script>
-		<script>
-    function login() {
+		<!-- <base href="<?php echo $weburl;?>" /> -->
+		<style type="text/css">
+			.wid720{width:720px;}
+.comTitle{background:url(../images/join3.png) no-repeat left bottom;height:27px;line-height:27px;padding:0 10px 8px;}
+.comTitle div a{color:#7e7e7e;}
+.comTitle a:hover{color:#e99116;}
 
-        _set_interface();
-        $('#jquery-lightbox').append("<iframe height=465 width=760 style='*height:500px;*width:743px;' src=\"zhuce.php?type=1\" frameborder=0 allowfullscreen></iframe>");
-        $(window).scrollTop() = 0;
-    }
-    ;
+.comTitle div span{color:#ff9900;}
+.comTitle div.f18{color:#ff9900;}
+		</style>
 
-    function hide() {
-        $('#jquery-lightbox').remove();
-        $('#jquery-overlay').fadeOut(function () {
-            $('#jquery-overlay').remove();
-        });
-    }
-
-</script>
-<style type="text/css">
-	.ddd p{ border: 0px !important; padding: 0px !important; line-height: 24px !important;}
-</style>
 </head>
     <body>
-	 <div id="main" class="mAuto">
-            <div class="wid980 mAuto">
-                <?php require 'head1.php';?>      
-                <div class="dN">
-                    <img src="images/join1.jpg" width="980" height="150" />
-                </div>
-                <div id="textList">
+    <?php require 'head.php';?>   
+	<div>
+
                     <div class="wid720" style="width:980px;">
                         <div class="clearfix comTitle">
                             <div class="left f18 fM">实验技术委托服务进度查询</div>
@@ -53,9 +32,7 @@
 						</form>
 						</div>
 					</div>
-				</div>
-			</div>
-		</div>
+	</div>
 	<?php require 'footer.php';?>
     </body>
     <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=0" ></script>

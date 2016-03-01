@@ -8,7 +8,10 @@
             return true;
         }
 </script>
-
+<link type="text/css" href="css/index.css" rel="stylesheet" />
+<link type="text/css" href="css/reset.css" rel="stylesheet" />
+<link type="text/css" href="css/bootstrap.min.css" rel="stylesheet" />
+<link type="text/css" href="css/common.css" rel="stylesheet" />
 
 <div class="wrap cf">
 		<div class="top-sub-nav cf">

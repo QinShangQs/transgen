@@ -14,9 +14,7 @@ $rsseo = mysql_fetch_array ( $sqlseo );
 <meta name="baidu-site-verification" content="qH90G4ZYKi" />
 <link rel="icon" href="http://www.transgen.com.cn/favicon.ico"
 	type="image/x-icon" />
-<link type="text/css" href="css/reset.css" rel="stylesheet" />
-<link type="text/css" href="css/bootstrap.min.css" rel="stylesheet" />
-<link type="text/css" href="css/common.css" rel="stylesheet" />
+
 <link type="text/css" href="css/index.css" rel="stylesheet" />
 </head>
 <body>

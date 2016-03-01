@@ -43,8 +43,8 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
         $('#jquery-lightbox').css("z-index",100).css("position","absolute");
         $('#jquery-lightbox').append("<iframe height=465 width=760 style='*height:500px;*width:743px;' src=\"zhuce.php?type=1\" frameborder=0 allowfullscreen></iframe>");
         
-        $(window).scrollTop() = 0;
-        $("#jquery-lightbox").css('left',($(window).windth() - 760)*.5);
+        //$(window).scrollTop() = 0;
+        $("#jquery-lightbox").css('left',($(window).width() - 760)*.5 + 'px');
     }
 
     function hide() {
