@@ -48,7 +48,7 @@
 	</div>
 	<div class="top-nav wrap cf">
 		<div class="logo fl">
-			<img src="images/logo.png">
+			<a href="<?php echo $weburl;?>"><img src="images/logo.png"></a>
 		</div>
 		<form id="searchaff" class="search-box cf fr" action="searcha.php"
 			onsubmit="return checkformkey()">
@@ -63,19 +63,19 @@
 	<div class="bottom-nav cf">
 		<div class="wrap cf">
 			<ul class="cf fl">
-				<li class="product active"><a href=""> <span
+				<li class="product"><a href="products.html"> <span
 						class="glyphicon glyphicon-home" aria-hidden="true"></span>
 						<p>产品中心</p> <!-- <b></b> -->
 				</a></li>
-				<li class="support"><a href=""> <span
+				<li class="support"><a href="service.html"> <span
 						class="glyphicon glyphicon-random" aria-hidden="true"></span>
 						<p>服务与支持</p>
 				</a></li>
-				<li class="booking"><a href=""> <span
+				<li class="booking"><a href="shop.html"> <span
 						class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
 						<p>订购中心</p>
 				</a></li>
-				<li class="intro"><a href=""> <span class="glyphicon glyphicon-leaf"
+				<li class="intro"><a href="about.html"> <span class="glyphicon glyphicon-leaf"
 						aria-hidden="true"></span>
 						<p>走进全式金</p>
 				</a></li>

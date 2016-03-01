@@ -44,7 +44,14 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
         $('#jquery-lightbox').append("<iframe height=465 width=760 style='*height:500px;*width:743px;' src=\"zhuce.php?type=1\" frameborder=0 allowfullscreen></iframe>");
         
         //$(window).scrollTop() = 0;
-        $("#jquery-lightbox").css('left',($(window).width() - 760)*.5 + 'px');
+        //
+        <?php
+        		 if(strstr($_SERVER['PHP_SELF'], 'index.php')){
+        		 	?>
+        		 	$("#jquery-lightbox").css('left',($(window).width() - 760)*.5 + 'px');
+        		 	<?php
+        		 }
+        		?>
     }
 
     function hide() {
@@ -55,5 +62,3 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
     }
 
 </script>
-<?php
-?>

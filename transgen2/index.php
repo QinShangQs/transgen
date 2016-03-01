@@ -61,7 +61,7 @@ $rsseo = mysql_fetch_array ( $sqlseo );
 	<div class="art-list-box cf wrap">
 		<div class="fl">
 			<div class="title-box">
-				<img src="images/news.png" />
+				<a href="news/1.html"><img src="images/news.png" /></a>
 				<p class="title">新闻动态</p>
 			</div>
 			<ul>
@@ -77,7 +77,7 @@ $rsseo = mysql_fetch_array ( $sqlseo );
 		</div>
 		<div class="fl border">
 			<div class="title-box">
-				<img src="images/product.png" />
+				<a href="news/2.html"><img src="images/product.png" /></a>
 				<p class="title">产品动态</p>
 			</div>
 			<ul>
@@ -93,7 +93,7 @@ $rsseo = mysql_fetch_array ( $sqlseo );
 		</div>
 		<div class="fl">
 			<div class="title-box">
-				<img src="images/support.png" />
+				<a href="news/3.html"><img src="images/support.png" /></a>
 				<p class="title">服务动态</p>
 			</div>
 			<ul>
@@ -110,7 +110,7 @@ $rsseo = mysql_fetch_array ( $sqlseo );
 
 	</div>
 
-	<div class="cf wrap">
+	<div class="cf wrap"  style="padding-left:35px">
 		<div class="fl cf file-box">
 			<img src="images/img1.jpg" class="fl" />
 			<ul class="fl">

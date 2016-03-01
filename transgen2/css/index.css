@@ -333,3 +333,45 @@ rotate
  
 }
 }
+
+.winContent {
+	width: 1000px;
+	height: 460px;
+	margin: auto
+}
+
+.win980 {
+	width: 980px;
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+
+.comme {
+	background: url(../images/join3.png) no-repeat left bottom;
+	height: 27px;
+	line-height: 16px;
+	padding: 0 10px 8px;
+}
+
+.comme div a {
+	color: #7e7e7e;
+}
+
+.comme a:hover {
+	color: #e99116;
+}
+
+.comme div span {
+	color: #ff9900;
+}
+
+.comme div.f18 {
+	color: #ff9900;
+	font-size: 18px;
+	float: left
+}
+
+.comme div.sub {
+	float: right;
+	font-size: x-small
+}

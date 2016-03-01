@@ -13,8 +13,8 @@
     mysql_query("SET NAMES 'utf8'");
     date_default_timezone_set('PRC');
 	
-    $weburl = "http://www.transgen.com.cn/";
-	
+    #$weburl = "http://www.transgen.com.cn/";
+    $weburl = "http://www.t2.com/";
 	/**
 	邮箱配置
 	*/

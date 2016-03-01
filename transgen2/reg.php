@@ -12,6 +12,7 @@
             .tabs input{ height:24px; line-height:24px; width:auto; padding:0 5px;}
         </style>
     </head>
+
     <body>
         <div class="add add1">
             <div class="clearfix titleA">
@@ -21,7 +22,7 @@
             <div class="clearfix">
                 <div class="left divCom">
                     <div class="user fM">　用户登录</div>
-                    <form name="formu" id="formu" method="post" action="loginsave.php?action=login" onSubmit="return checkforml(this)">
+                    <form name="formu" id="formu" method="post" action="save.php?action=login" onSubmit="return checkforml(this)">
                         <ul class="addList addList1">
                             <li class="clearfix">
                                 <label class="left">用户名:</label>
@@ -35,7 +36,7 @@
                             <li class="clearfix oH">
                                 <label class="left">验证码:</label>
                                 <input class="left te" type="text" name="checks" id="checks" maxlength="4" />
-                                <img src="vcode.php<?php echo time();?>" alt="点击刷新换一个验证码" name="txt_YanCodeImage" width="86" height="27" align="middle" id="txt_YanCodeImage" style="cursor:pointer; border:1px #ccc solid; margin-top:2px;float:left; padding-left:7px;" onclick="this.src=this.src+'?'" />
+                                <img src="vcode.php" alt="点击刷新换一个验证码" name="txt_YanCodeImage" width="86" height="27" align="middle" id="txt_YanCodeImage" style="cursor:pointer; border:1px #ccc solid; margin-top:2px;float:left; padding-left:7px;" onclick="this.src=this.src+'?'" />
                             </li>
 
                             <li class="dan"><input type="submit" class="ding1" value="提交订单" style="border:none;" /></li>
@@ -44,7 +45,7 @@
                 </div>
                 <div class="left divCom divCom2">
                     <div class="user fM">　用户注册</div>
-                    <form name="validateForm1" id="validateForm1" method="post" action="loginsave.php?action=addreg">
+                    <form name="validateForm1" id="validateForm1" method="post" action="save.php?action=addreg">
                         <ul class="addList addList1">
                             <li class="clearfix">
                                 <label class="left">用户名:</label>
@@ -78,7 +79,7 @@
                             <li class="clearfix oH">
                                 <label class="left">验证码:</label>
                                 <input class="left te" type="text" name="checks" id="checks" maxlength="4" reg="^\w{4,4}$" tip="请输入验证码" />
-                                <img src="vcode.php?<?php echo time();?>" alt="点击刷新换一个验证码" name="txt_YanCodeImage" width="86" height="27" align="middle" id="txt_YanCodeImage" style="cursor:pointer; border:1px #ccc solid; margin-top:2px;float:left; padding-left:7px;" onclick="this.src=this.src+'?'" />
+                                <img src="vcode.php" alt="点击刷新换一个验证码" name="txt_YanCodeImage" width="86" height="27" align="middle" id="txt_YanCodeImage" style="cursor:pointer; border:1px #ccc solid; margin-top:2px;float:left; padding-left:7px;" onclick="this.src=this.src+'?'" />
                             </li>
 
                             <li class="dan"><input type="submit" value="提交订单" class="ding1 ding2" style="border:none;" /></li>
@@ -88,7 +89,6 @@
             </div>
 
         </div>
-        <script type="text/javascript" src="js/jq.js"></script>
 		<script type="text/javascript" src="js/easy_validator.pack.js"></script>
         <script type="text/javascript" src="js/jquery.bgiframe.min.js"></script>
         <SCRIPT language="JavaScript">
