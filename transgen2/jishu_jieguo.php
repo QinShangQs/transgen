@@ -2,7 +2,7 @@
 require 'config.inc.php';
 $dingdanhao = trim($_POST['dingdanhao']);
 $sql = "select * from `".$dbpre."jishu` where dingdanhao='" . $dingdanhao . "'";
-echo $sql;die();
+
 $query = mysql_query($sql, $conn);
 $rs = mysql_fetch_array($query);
 if(empty($rs['dingdanhao'])){

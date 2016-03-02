@@ -14,7 +14,7 @@
         // 构造方法初始化
         public function __construct() {
             // $this->font = dirname(__FILE__).'\font\elephant.ttf';
-            $this->font = './font/elephant.ttf';
+            $this->font = '../font/elephant.ttf';
         }
 
         // 生成随机码

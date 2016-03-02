@@ -35,7 +35,7 @@
                             <li class="clearfix oH">
                                 <label class="left">验证码:</label>
                                 <input class="left te" type="text" name="checks" id="checks" maxlength="4" />
-                                <img src="vcode.php<?php echo time();?>" alt="点击刷新换一个验证码" name="txt_YanCodeImage" width="86" height="27" align="middle" id="txt_YanCodeImage" style="cursor:pointer; border:1px #ccc solid; margin-top:2px;float:left; padding-left:7px;" onclick="this.src=this.src+'?'" />
+                                <img src="vcode.php" alt="点击刷新换一个验证码" name="txt_YanCodeImage" width="86" height="27" align="middle" id="txt_YanCodeImage" style="cursor:pointer; border:1px #ccc solid; margin-top:2px;float:left; padding-left:7px;" onclick="this.src=this.src+'?'" />
                             </li>
 
                             <li class="dan"><input type="submit" class="ding1" value="提交订单" style="border:none;" /></li>
@@ -78,7 +78,7 @@
                             <li class="clearfix oH">
                                 <label class="left">验证码:</label>
                                 <input class="left te" type="text" name="checks" id="checks" maxlength="4" reg="^\w{4,4}$" tip="请输入验证码" />
-                                <img src="vcode.php?<?php echo time();?>" alt="点击刷新换一个验证码" name="txt_YanCodeImage" width="86" height="27" align="middle" id="txt_YanCodeImage" style="cursor:pointer; border:1px #ccc solid; margin-top:2px;float:left; padding-left:7px;" onclick="this.src=this.src+'?'" />
+                                <img src="vcode.php" alt="点击刷新换一个验证码" name="txt_YanCodeImage" width="86" height="27" align="middle" id="txt_YanCodeImage" style="cursor:pointer; border:1px #ccc solid; margin-top:2px;float:left; padding-left:7px;" onclick="this.src=this.src+'?'" />
                             </li>
 
                             <li class="dan"><input type="submit" value="提交订单" class="ding1 ding2" style="border:none;" /></li>
