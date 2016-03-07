@@ -7,7 +7,7 @@
 }
 
 .top-nav {
-	padding: 20px 0 15px;
+	padding: 8px 0 5px;
 }
 
 .top-sub-nav {
@@ -115,12 +115,12 @@
 }
 
 .search-box {
-	width: 540px;
+	width: 580px;
 	margin: 28px 0 0 50px;
 }
 
 .search-box input {
-	width: 480px;
+	width: 520px;
 	height: 40px;
 	padding-right: 30px;
 	line-height: 36px;
@@ -148,7 +148,7 @@
 
 .art-list-box {
 	height: auto;
-	margin: 30px auto 50px;
+	margin: 10px auto 30px;
 }
 
 .art-list-box div {
@@ -198,7 +198,8 @@
 
 .art-list-box .title-box img {
 	border-radius: 50%;
-	margin-bottom: 10px
+	margin-bottom: 10px;
+	width:100px
 }
 
 .art-list-box .title-box .title {
@@ -207,13 +208,15 @@
 }
 
 .file-box, .gongyi-box, .recruit {
-	width: 33.33%
+	width: 33.33%;
+	text-align:center
 }
 
 .file-box img, .gongyi-box img, .recruit img {
 	width: 160px;
 	margin-right: 10px;
 	margin-top: 2px;
+	margin-bottom:10px;
 	border: 2px solid #828282;
 }
 
@@ -230,7 +233,7 @@
 
 .footer .inner {
 	padding: 10px;
-	background: #4C4C4C;
+	background: #575757;
 	color: #FFF;
 	margin-top: 20px;
 }

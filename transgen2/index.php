@@ -110,10 +110,10 @@ $rsseo = mysql_fetch_array ( $sqlseo );
 
 	</div>
 
-	<div class="cf wrap"  style="padding-left:35px">
-		<div class="fl cf file-box">
-			<img src="images/img1.jpg" class="fl" />
-			<ul class="fl">
+	<div class="cf wrap"  >
+		<div class="fl cf file-box" >
+			<div><img src="images/img1.jpg" /></div>
+			<ul>
 				<?php
                 $sql = mysql_query("select id,name,address,addtime from `".$dbpre."download` order by addtime desc limit 0,5",$conn);
 				while($rs = mysql_fetch_array($sql)){
@@ -127,8 +127,8 @@ $rsseo = mysql_fetch_array ( $sqlseo );
 			</ul>
 		</div>
 		<div class="fl cf gongyi-box">
-			<img src="images/gongyi.png" class="fl" />
-			<ul class="fl">
+			<div><img src="images/gongyi.png" /></div>
+			<ul >
 				 <?php
                 $sql = mysql_query("select id,name,addtime from `".$dbpre."job` order by addtime desc limit 0,5",$conn);
                 while($rs = mysql_fetch_array($sql)){
@@ -142,8 +142,8 @@ $rsseo = mysql_fetch_array ( $sqlseo );
 			</ul>
 		</div>
 		<div class="fl cf recruit">
-			<img src="images/zhaopin.jpg" class="fl" />
-			<ul class="fl">
+			<div><img src="images/zhaopin.jpg"  /></div>
+			<ul >
 			<?php
                 $sql = mysql_query("select id,name,addtime from `".$dbpre."news` where cat=4 order by addtime desc limit 0,5",$conn);
 				while($rs = mysql_fetch_array($sql)){

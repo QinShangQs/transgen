@@ -12,7 +12,7 @@
 <link type="text/css" href="css/reset.css" rel="stylesheet" />
 <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet" />
 <link type="text/css" href="css/common.css" rel="stylesheet" />
-
+<div style="background:#F49110">
 <div class="wrap cf">
 		<div class="top-sub-nav cf">
 			<div class="menu fl" style="margin-left: 0">
@@ -46,6 +46,7 @@
 			</div>
 		</div>
 	</div>
+</div>
 	<div class="top-nav wrap cf">
 		<div class="logo fl">
 			<a href="<?php echo $weburl;?>"><img src="images/logo.png"></a>
