@@ -64,21 +64,17 @@
 	<div class="bottom-nav cf">
 		<div class="wrap cf">
 			<ul class="cf fl">
-				<li class="product"><a href="products.html"> <span
-						class="glyphicon glyphicon-home" aria-hidden="true"></span>
-						<p>产品中心</p> <!-- <b></b> -->
+				<li class="product"><a href="products.html"><span
+						class="glyphicon glyphicon-home" aria-hidden="true"><span style="font-family: 微软雅黑"> 产品中心</span></span>
 				</a></li>
 				<li class="support"><a href="service.html"> <span
-						class="glyphicon glyphicon-random" aria-hidden="true"></span>
-						<p>服务与支持</p>
+						class="glyphicon glyphicon-random" aria-hidden="true" ><span style="font-family: 微软雅黑"> 服务与支持</span></span>
 				</a></li>
 				<li class="booking"><a href="shop.html"> <span
-						class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
-						<p>订购中心</p>
+						class="glyphicon glyphicon-shopping-cart" aria-hidden="true"><span style="font-family: 微软雅黑"> 订购中心</span></span>
 				</a></li>
 				<li class="intro"><a href="about.html"> <span class="glyphicon glyphicon-leaf"
-						aria-hidden="true"></span>
-						<p>走进全式金</p>
+						aria-hidden="true"><span style="font-family: 微软雅黑"> 走进全式金</span></span>
 				</a></li>
 			</ul>
 

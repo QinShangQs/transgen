@@ -63,9 +63,12 @@
 .bottom-nav li {
 	position: relative;
 	width: 110px;
-	height: 66px;
+	height: 40px;
 	text-align: center;
 	float: left;
+	font-size:16px;
+	
+	
 	width: 25%;
 }
 
@@ -75,6 +78,8 @@
 
 .bottom-nav li span {
 	margin-bottom: 10px;
+	font-weight: 700;
+	
 }
 
 .bottom-nav li p {
@@ -164,6 +169,10 @@
 }
 
 .art-list-box div:hover a {
+	color: #E58634;
+}
+
+.gongyi-box div:hover a  {
 	color: #E58634;
 }
 

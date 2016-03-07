@@ -37,7 +37,7 @@ if($id){
         <div class="wid720" style="width:980px;">
         	<div class="clearfix comTitle">
             	<div class="left f18 fM"><?php echo $rscat['catname'];?></div>
-                <div class="right"><a href="http://www.transgen.com.cn" rel="nofollow">首页</a> > <span><?php echo $rscat['catname'];?></span></div>
+                <div class="right"><a href="http://www.transgen.com.cn" rel="nofollow">首页</a> > <a href="news/<?php echo $rs['cat'];?>.html">新闻列表</a> > <span><?php echo $rscat['catname'];?></span></div>
             </div>
             <div id="content">
             	<h1 class="f18 fM waiJ"><?php echo $rs['name'];?></h1>
