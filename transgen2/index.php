@@ -16,6 +16,62 @@ $rsseo = mysql_fetch_array ( $sqlseo );
 	type="image/x-icon" />
 
 <link type="text/css" href="css/index.css" rel="stylesheet" />
+<style type="text/css">
+ins#qiao-icon-wrap {
+	visibility: visible !important;
+	z-index: 2147483647;
+}
+
+/* icon head */
+#qiao-icon-wrap .qiao-icon-head {
+	position: relative;
+	width: 104px;
+	height: 93px;
+	background:
+		url(http://s.qiao.baidu.com/style/110/120375110/1/iconbg.jpg);
+	left: 0px;
+	overflow: hidden;
+	display: block;
+	z-index: 100;
+}
+
+/* icon head offline*/
+#qiao-icon-wrap .qiao-icon-head-offline {
+	
+}
+
+/* icon head title */
+#qiao-icon-wrap .qiao-icon-title {
+	background: url() no-repeat;
+	_background: none;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="");
+	position: absolute;
+	bottom: 10px;
+	width: 90px;
+	height: 30px;
+	text-indent: -999px;
+	overflow: hidden;
+}
+
+/* icon head transit */
+#qiao-icon-wrap .qiao-icon-gradient {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	display: none;
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,
+		startColorstr='#00ece6cd', endColorstr='#FFece6cd');
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(236, 230, 205,
+		0)), to(#ece6cd));
+	background: -webkit-linear-gradient(top, rgba(236, 230, 205, 0), #ece6cd);
+	background: -moz-linear-gradient(top, rgba(236, 230, 205, 0), #ece6cd);
+	background: -o-linear-gradient(top, rgba(236, 230, 205, 0), #ece6cd);
+	background: linear-gradient(to bottom, rgba(236, 230, 205, 0), #ece6cd);
+}
+</style>
+
 </head>
 <body>
 	<?php require 'head.php';?>
@@ -36,36 +92,36 @@ $rsseo = mysql_fetch_array ( $sqlseo );
 							</div>
 						</div>			                	
 			                <?php
-			                }
-			                ?>
+							}
+							?>
 
 					</div>
 
 				</div>
 
-		<div class = 'iosSliderButtons'>			
+				<div class='iosSliderButtons'>			
 			 		<?php
-							$sqlad = mysql_query ( "select * from `" . $dbpre . "banner` where fid=1 and isok=1 order by id desc", $conn );
-							while ( $rsad = mysql_fetch_array ( $sqlad ) ) {
-					?>
+						$sqlad = mysql_query ( "select * from `" . $dbpre . "banner` where fid=1 and isok=1 order by id desc", $conn );
+						while ( $rsad = mysql_fetch_array ( $sqlad ) ) {
+							?>
 						<div class = 'button' style="background:url(<?php echo $rsad['pic'];?>)  no-repeat 50% 50%;background-size: cover;">
-							<div class = 'border'></div>
-						</div>
+						<div class='border'></div>
+					</div>
 					<?php
-			                }
-			         ?>
+						}
+						?>
 			
 		</div>
-				
+
 				<!-- <div class='slideSelectors'>
 					 <?php
-							$sqlad = mysql_query ( "select * from `" . $dbpre . "banner` where fid=1 and isok=1 order by id desc", $conn );
-							while ( $rsad = mysql_fetch_array ( $sqlad ) ) {
-					?>
+						$sqlad = mysql_query ( "select * from `" . $dbpre . "banner` where fid=1 and isok=1 order by id desc", $conn );
+						while ( $rsad = mysql_fetch_array ( $sqlad ) ) {
+							?>
 						<div class='item'></div>
 					<?php
-			                }
-			         ?>
+						}
+						?>
 				</div> -->
 				<div class='scrollbarContainer'></div>
 			</div>
@@ -80,13 +136,14 @@ $rsseo = mysql_fetch_array ( $sqlseo );
 			</div>
 			<ul>
 				 <?php
-                $sql = mysql_query("select id,name,addtime from `".$dbpre."news` where cat=1 order by addtime desc limit 0,5",$conn);
-				while($rs = mysql_fetch_array($sql)){
-				?>
-				<li><a href="news_show/<?php echo $rs['id'];?>.html" title="<?php echo $rs['name'];?>"><!-- <strong>Trans团购<?php echo date('Y/m/d',$rs['addtime']);?></strong> --> <?php echo mb_strcut($rs['name'],0,90,'utf8');?></a></li>
+					$sql = mysql_query ( "select id,name,addtime from `" . $dbpre . "news` where cat=1 order by addtime desc limit 0,5", $conn );
+					while ( $rs = mysql_fetch_array ( $sql ) ) {
+						?>
+				<li><a href="news_show/<?php echo $rs['id'];?>.html"
+					title="<?php echo $rs['name'];?>"> <!-- <strong>Trans团购<?php echo date('Y/m/d',$rs['addtime']);?></strong> --> <?php echo mb_strcut($rs['name'],0,90,'utf8');?></a></li>
 				 <?php
-				}
-				?>
+					}
+					?>
 			</ul>
 		</div>
 		<div class="fl border">
@@ -96,13 +153,14 @@ $rsseo = mysql_fetch_array ( $sqlseo );
 			</div>
 			<ul>
 				 <?php
-                $sql = mysql_query("select id,name,addtime from `".$dbpre."news` where cat=2 order by addtime desc limit 0,5",$conn);
-				while($rs = mysql_fetch_array($sql)){
-				?>
-				<li><a href="news_show/<?php echo $rs['id'];?>.html" title="<?php echo $rs['name'];?>"><!-- <strong>Trans团购<?php echo date('Y/m/d',$rs['addtime']);?></strong> --> <?php echo mb_strcut($rs['name'],0,90,'utf8');?></a></li>
+					$sql = mysql_query ( "select id,name,addtime from `" . $dbpre . "news` where cat=2 order by addtime desc limit 0,5", $conn );
+					while ( $rs = mysql_fetch_array ( $sql ) ) {
+						?>
+				<li><a href="news_show/<?php echo $rs['id'];?>.html"
+					title="<?php echo $rs['name'];?>"> <!-- <strong>Trans团购<?php echo date('Y/m/d',$rs['addtime']);?></strong> --> <?php echo mb_strcut($rs['name'],0,90,'utf8');?></a></li>
 				 <?php
-				}
-				?>
+					}
+					?>
 			</ul>
 		</div>
 		<div class="fl">
@@ -112,28 +170,31 @@ $rsseo = mysql_fetch_array ( $sqlseo );
 			</div>
 			<ul>
 				 <?php
-                 $sql = mysql_query("select id,name,addtime from `".$dbpre."news` where cat=3 order by addtime desc limit 0,5",$conn);
-				while($rs = mysql_fetch_array($sql)){
-				?>
-				<li><a href="news_show/<?php echo $rs['id'];?>.html" title="<?php echo $rs['name'];?>"><!-- <strong>Trans团购<?php echo date('Y/m/d',$rs['addtime']);?></strong> --> <?php echo mb_strcut($rs['name'],0,90,'utf8');?></a></li>
+					$sql = mysql_query ( "select id,name,addtime from `" . $dbpre . "news` where cat=3 order by addtime desc limit 0,5", $conn );
+					while ( $rs = mysql_fetch_array ( $sql ) ) {
+						?>
+				<li><a href="news_show/<?php echo $rs['id'];?>.html"
+					title="<?php echo $rs['name'];?>"> <!-- <strong>Trans团购<?php echo date('Y/m/d',$rs['addtime']);?></strong> --> <?php echo mb_strcut($rs['name'],0,90,'utf8');?></a></li>
 				 <?php
-				}
-				?>
+					}
+					?>
 			</ul>
 		</div>
 
 	</div>
 
-	<div class="cf wrap"  >
-		<div class="fl cf file-box" >
-			<div><img src="images/img1.jpg" /></div>
+	<div class="cf wrap">
+		<div class="fl cf file-box">
+			<div>
+				<img src="images/img1.jpg" />
+			</div>
 			<ul>
 				<?php
-                $sql = mysql_query("select id,name,address,addtime from `".$dbpre."download` order by addtime desc limit 0,5",$conn);
-				while($rs = mysql_fetch_array($sql)){
-				?>			
-				<li>
-				<a href="<?php echo $rs['address'];?>" title="<?php echo $rs['name'];?>" >
+				$sql = mysql_query ( "select id,name,address,addtime from `" . $dbpre . "download` order by addtime desc limit 0,5", $conn );
+				while ( $rs = mysql_fetch_array ( $sql ) ) {
+					?>			
+				<li><a href="<?php echo $rs['address'];?>"
+					title="<?php echo $rs['name'];?>">
 				<?php echo $rs['name'];?></a></li>
 				<?php
 				}
@@ -141,32 +202,51 @@ $rsseo = mysql_fetch_array ( $sqlseo );
 			</ul>
 		</div>
 		<div class="fl cf gongyi-box">
-			<div><img src="images/gongyi.png" /></div>
-			<ul >
+			<div>
+				<img src="images/gongyi.png" />
+			</div>
+			<ul>
 				 <?php
-                $sql = mysql_query("select id,name,addtime from `".$dbpre."job` order by addtime desc limit 0,5",$conn);
-                while($rs = mysql_fetch_array($sql)){
-                ?>
-				<li>
-				<a  href="job_show/<?php echo $rs['id'];?>.html" title="<?php echo $rs['name'];?>">
+					$sql = mysql_query ( "select id,name,addtime from `" . $dbpre . "job` order by addtime desc limit 0,5", $conn );
+					while ( $rs = mysql_fetch_array ( $sql ) ) {
+						?>
+				<li><a href="job_show/<?php echo $rs['id'];?>.html"
+					title="<?php echo $rs['name'];?>">
 					<?php echo $rs['name'];?></a></li>
 				 <?php
-                }
-                ?>
+					}
+					?>
 			</ul>
 		</div>
 		<div class="fl cf recruit">
-			<div><img src="images/zhaopin.jpg"  /></div>
-			<ul >
+			<div>
+				<img src="images/zhaopin.jpg" />
+			</div>
+			<ul>
 			<?php
-                $sql = mysql_query("select id,name,addtime from `".$dbpre."news` where cat=4 order by addtime desc limit 0,5",$conn);
-				while($rs = mysql_fetch_array($sql)){
+			$sql = mysql_query ( "select id,name,addtime from `" . $dbpre . "news` where cat=4 order by addtime desc limit 0,5", $conn );
+			while ( $rs = mysql_fetch_array ( $sql ) ) {
 				?>
-				<li><a href="news_show/<?php echo $rs['id'];?>.html" title="<?php echo $rs['name'];?>"><?php echo $rs['name'];?></a></li>
+				<li><a href="news_show/<?php echo $rs['id'];?>.html"
+					title="<?php echo $rs['name'];?>"><?php echo $rs['name'];?></a></li>
 				<?php
-                }
-                ?>
+			}
+			?>
 			</ul>
+		</div>
+	</div>
+
+
+	<div style="right: 0; top: 345px; cursor: pointer; position: fixed;z-index:100">
+		<img src="images/wenxin.png" width="110" height="128"
+			alt="全式金生物官方微信号--'transgen'">
+
+		<div id="BDBridgeFixedWrap" style="top: -227px;">
+			<ins id="qiao-icon-wrap" class="qiao-icon-wrap"
+				style="visibility: hidden;">
+				<a href="javascript:;" target="_self" class="qiao-icon-head"><ins
+						class="qiao-icon-gradient"></ins> <ins class="qiao-icon-title">在线咨询</ins></a>
+			</ins>
 		</div>
 	</div>
 
@@ -197,29 +277,25 @@ $rsseo = mysql_fetch_array ( $sqlseo );
 		$(".iosSliderButtons").width($(".iosSliderButtons .button").length * 115 + 10);
 	});
 
-function slideChange(args) {
-	$('.iosSliderButtons .button').removeClass('selected');
-	$('.iosSliderButtons .button:eq(' + (args.currentSlideNumber - 1) + ')').addClass('selected');
-
-}
-
-function slideComplete(args) {
-	if(!args.slideChanged) return false;
-	$(args.sliderObject).find('.text1, .text2').attr('style', '');
-	$(args.currentSlideObject).find('.text1').animate({
-		left: '30px',
-		opacity: '0.8'
-	}, 700, 'easeOutQuint');
-	$(args.currentSlideObject).find('.text2').delay(200).animate({
-		left: '30px',
-		opacity: '0.8'
-	}, 600, 'easeOutQuint');
-}
-                
-
-	
-
-                
+		function slideChange(args) {
+			$('.iosSliderButtons .button').removeClass('selected');
+			$('.iosSliderButtons .button:eq(' + (args.currentSlideNumber - 1) + ')').addClass('selected');
+		
+		}
+		
+		function slideComplete(args) {
+			if(!args.slideChanged) return false;
+			$(args.sliderObject).find('.text1, .text2').attr('style', '');
+			$(args.currentSlideObject).find('.text1').animate({
+				left: '30px',
+				opacity: '0.8'
+			}, 700, 'easeOutQuint');
+			$(args.currentSlideObject).find('.text2').delay(200).animate({
+				left: '30px',
+				opacity: '0.8'
+			}, 600, 'easeOutQuint');
+		}
+		                
 			function slideComplete(args) {
 				if(!args.slideChanged) return false;
 				$(args.sliderObject).find('.text1, .text2').attr('style', '');
