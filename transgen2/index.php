@@ -237,7 +237,7 @@ ins#qiao-icon-wrap {
 	</div>
 
 
-	<div style="right: 0; top: 345px; cursor: pointer; position: fixed;z-index:100">
+	<div style="right: 0; top: 345px; cursor: pointer; position: fixed;z-index:100;background: white">
 		<img src="images/wenxin.png" width="110" height="128"
 			alt="全式金生物官方微信号--'transgen'">
 
