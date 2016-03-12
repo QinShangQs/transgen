@@ -12,6 +12,7 @@
 <link type="text/css" href="css/reset.css" rel="stylesheet" />
 <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet" />
 <link type="text/css" href="css/common.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
 <div style="background:#F49110">
 <div class="wrap cf">
 		<div class="top-sub-nav cf">
@@ -53,12 +54,16 @@
 		</div>
 		<form id="searchaff" class="search-box cf fr" action="searcha.php"
 			onsubmit="return checkformkey()">
-			<input type="text" class="search-input fl" name="key" id="key"
+			<table style="float:right">
+				<tr>
+					<td><input type="text" class="search-input fl" name="key" id="key"
 				value="请输入您要查询的产品名、货号等关键字..."
 				onfocus="if (value =='请输入您要查询的产品名、货号等关键字...'){value =''}"
 				onblur="if (value ==''){value='请输入您要查询的产品名、货号等关键字...'}"> <span
-				class="glyphicon glyphicon-search search-btn fl" aria-hidden="true" onclick="document.getElementById('searchaff').submit()"></span>
-			<!-- <input class="submit-btn" type="submit" value="" name="ok"> -->
+				class="glyphicon glyphicon-search search-btn fl" aria-hidden="true" onclick="document.getElementById('searchaff').submit()"></span></td>
+					<td><img src="images/wenxin.png" height='94' alt="全式金生物官方微信号--'transgen'"></td>
+				</tr>
+			</table>
 		</form>
 	</div>
 	<div class="bottom-nav cf">

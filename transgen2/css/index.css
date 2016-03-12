@@ -3,11 +3,12 @@
 .wrap {
 	width: 80%;
 	margin: 0 auto;
-	min-width: 600px
+	min-width:1079px;
 }
 
 .top-nav {
 	padding: 8px 0 5px;
+	
 }
 
 .top-sub-nav {
@@ -120,8 +121,8 @@
 }
 
 .search-box {
-	width: 580px;
-	margin: 28px 0 0 50px;
+	width: 680px;
+	margin: auto;
 }
 
 .search-box input {
