@@ -194,12 +194,11 @@
 }
 .art-list-box ul {
 	text-align: left;
-	margin-left:15px;
+	margin-left:75px;
 }
 
 .art-list-box ul li {
 	text-align: left;
-	margin-left:15px;
 	width: auto;
 	overflow: hidden;
 	margin: 5px 0;
@@ -238,7 +237,7 @@
 .file-box li, .gongyi-box li, .recruit li {
 	margin-bottom: 3px;
 	text-align:left;
-	margin-left:15px;
+	margin-left:75px;
 	
 }
 
