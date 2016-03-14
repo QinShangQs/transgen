@@ -192,9 +192,14 @@
 .art-list-box div span {
 	font-size: 1em;
 }
+.art-list-box ul {
+	text-align: left;
+	margin-left:15px;
+}
 
 .art-list-box ul li {
-	text-align: center;
+	text-align: left;
+	margin-left:15px;
 	width: auto;
 	overflow: hidden;
 	margin: 5px 0;
@@ -231,7 +236,10 @@
 }
 
 .file-box li, .gongyi-box li, .recruit li {
-	margin-bottom: 3px
+	margin-bottom: 3px;
+	text-align:left;
+	margin-left:15px;
+	
 }
 
 .footer {
