@@ -62,3 +62,13 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
     }
 
 </script>
+        		
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.ds').mouseover(function(){
+		$(this).find('.navSon').show();
+	}).mouseout(function(){
+		$(this).find('.navSon').hide();
+	});
+});
+</script>

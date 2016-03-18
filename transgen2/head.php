@@ -54,37 +54,70 @@
 		</div>
 		<form id="searchaff" class="search-box cf fr" action="searcha.php"
 			onsubmit="return checkformkey()">
-			<table style="float:right">
-				<tr>
-					<td><input type="text" class="search-input fl" name="key" id="key"
+			<input type="text" class="search-input fl" name="key" id="key"
 				value="请输入您要查询的产品名、货号等关键字..."
 				onfocus="if (value =='请输入您要查询的产品名、货号等关键字...'){value =''}"
 				onblur="if (value ==''){value='请输入您要查询的产品名、货号等关键字...'}"> <span
-				class="glyphicon glyphicon-search search-btn fl" aria-hidden="true" onclick="document.getElementById('searchaff').submit()"></span></td>
-					<td><img src="images/wenxin.png" height='94' alt="全式金生物官方微信号--'transgen'"></td>
-				</tr>
-			</table>
+				class="glyphicon glyphicon-search search-btn fl" aria-hidden="true" onclick="document.getElementById('searchaff').submit()"></span>
 		</form>
 	</div>
 	<div class="bottom-nav cf">
 		<div class="wrap cf">
 			<ul class="cf fl">
-				<li class="product"><a href="products.html"><span
-						class="glyphicon glyphicon-home" aria-hidden="true"><span style="font-family: 微软雅黑"> 产品中心</span></span>
-				</a></li>
-				<li class="support"><a href="service.html"> <span
+				<li  class="product ds"><a href="products.html"><span
+						class="glyphicon glyphicon-home" aria-hidden="true">
+						<span style="font-family: 微软雅黑"> 产品中心</span>						
+				</span>
+				</a>
+				<dl class="pA navSon dN" >
+				        	<?php
+							$sqlm = mysql_query("select id,catname from `".$dbpre."product_cat` where cid!=0 order by px desc",$conn);
+							while($rsm = mysql_fetch_array($sqlm)){
+							?>
+				            <dd class="leis"><a href="products/<?php echo $rsm['id'];?>.html" class="zuo fA"><?php echo $rsm['catname'];?></a></dd>
+				           <?php }?> 
+				 </dl>
+				</li>
+				<li class="support ds"><a href="service.html"> <span
 						class="glyphicon glyphicon-random" aria-hidden="true" ><span style="font-family: 微软雅黑"> 服务与支持</span></span>
-				</a></li>
+						
+				</a>
+					<dl class="pA navSon dN" >
+						<dd class="leis"><a href="jishu_chaxun.php" rel="nofollow" class="zuo fA">技术服务查询</a></dd>
+			        	<?php
+						$sqlflm = mysql_query("select id,catname from `".$dbpre."catdownload` order by id desc",$conn);
+						while($rsloadm = mysql_fetch_array($sqlflm)){
+						?>
+			            <dd class="leis"><a href="service/<?php echo $rsloadm['id'];?>.html" class="zuo fA" rel="nofollow"><?php echo $rsloadm['catname'];?></a></dd>
+			            <?php }?>
+			            <dd class="leis"><a href="faq.html" class="zuo fA" rel="nofollow">产品FAQ</a></dd>
+			            <dd class="leis"><a href="video.html" rel="nofollow" class="zuo fA">视频讲座</a></dd>
+			        </dl>
+				</li>
 				<li class="booking"><a href="shop.html"> <span
 						class="glyphicon glyphicon-shopping-cart" aria-hidden="true"><span style="font-family: 微软雅黑"> 订购中心</span></span>
 				</a></li>
-				<li class="intro"><a href="about.html"> <span class="glyphicon glyphicon-leaf"
+				<li class="intro ds"><a href="about.html"> <span class="glyphicon glyphicon-leaf"
 						aria-hidden="true"><span style="font-family: 微软雅黑"> 走进全式金</span></span>
-				</a></li>
+				</a>
+					<dl class="pA navSon navSonL dN" style="text-align:center;left:70px">
+			        		<?php
+			                $sqlflab = mysql_query("select id,name from `".$dbpre."danye` order by id desc",$conn);
+							while($rsab = mysql_fetch_array($sqlflab)){
+							?>
+			                <dd class="leis"><a href="about/<?php echo $rsab['id'];?>.html" class="zuo fA" rel="nofollow" style="text-indent:0px;"><?php echo $rsab['name'];?></a></dd>
+			                <?php
+							}
+							?>
+			                <dd class="leis"><a href="partner.html" class="zuo fA" style="text-indent:0px;" rel="nofollow">合作伙伴</a></dd>
+			                <dd class="leis"><a href="contact.html" class="zuo fA" style="text-indent:0px;" rel="nofollow">联系我们</a></dd>
+			        </dl>
+				</li>
 			</ul>
 
 		</div>
 	</div>
+
 
 <?php
 ?>
