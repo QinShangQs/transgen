@@ -32,15 +32,14 @@
 				}
 				?>
 			</div>
-			<p class="phone fr">
-				<span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>0086-400-898-0321
-			</p>
+
 			<div class="menu fr">
-				<a href="shop.html" class="shop"><span
-					class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>购物车</a>
-				<span class="share"><span class="glyphicon glyphicon-share"
-					aria-hidden="true"></span><a href="http://e.weibo.com/transgen" rel="nofollow"> 新浪微博</a>
-				 <a href="http://page.renren.com/601484932" rel="nofollow">人人网</a></span>
+				<a href='#' style="font-size:15px; text-decoration: none;"><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>0086-400-898-0321</a>
+				<a href="shop.html" class="shop">
+				<span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>购物车</a>
+				<span class="share"><span class="glyphicon glyphicon-share" aria-hidden="true"></span>
+				<a href="http://e.weibo.com/transgen" rel="nofollow"> 新浪微博</a>
+				<span class="glyphicon glyphicon-share" aria-hidden="true"></span> <a href="http://page.renren.com/601484932" rel="nofollow">人人网</a></span>
 				 <a href="http://www.transgenbiotech.com" class="english"><span
 					class="glyphicon glyphicon-send" aria-hidden="true"></span>English</a>
 
@@ -100,7 +99,7 @@
 				<li class="intro ds"><a href="about.html"> <span class="glyphicon glyphicon-leaf"
 						aria-hidden="true"><span style="font-family: 微软雅黑"> 走进全式金</span></span>
 				</a>
-					<dl class="pA navSon navSonL dN" style="text-align:center;left:70px">
+					<dl class="pA navSon  dN" style="text-align:center;">
 			        		<?php
 			                $sqlflab = mysql_query("select id,name from `".$dbpre."danye` order by id desc",$conn);
 							while($rsab = mysql_fetch_array($sqlflab)){
