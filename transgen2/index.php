@@ -86,7 +86,7 @@ ins#qiao-icon-wrap {
 							while ( $rsad = mysql_fetch_array ( $sqlad ) ) {
 								?>
 			                <div class='item' id='item1' onclick="location.href='<?php echo $rsad['weburl'];?>'" 
-			                title="<?php echo $rsad['alt'];?>" style="background:url(<?php echo $rsad['pic'];?>)">
+			                title="<?php echo $rsad['alt'];?>" style="background:url(<?php echo $rsad['pic'];?>);  ">
 							<div class='caption'>
 								<div class='bg'></div>
 							</div>

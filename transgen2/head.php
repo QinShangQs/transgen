@@ -15,7 +15,7 @@
 <link rel="stylesheet" type="text/css" href="css/style.css"/>
 <div style="background:#F49110">
 <div class="wrap cf">
-		<div class="top-sub-nav cf">
+		<div class="top-sub-nav cf" style="font-size: 13px;">
 			<div class="menu fl" style="margin-left: 0">
 				<span class="">欢迎来到全式金！</span> 
 				 <?php
@@ -34,7 +34,7 @@
 			</div>
 
 			<div class="menu fr">
-				<a href='#' style="font-size:15px; text-decoration: none;"><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>0086-400-898-0321</a>
+				<a href='#' style="font-size:16px; text-decoration: none;"><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>0086-400-898-0321</a>
 				<a href="shop.html" class="shop">
 				<span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>购物车</a>
 				<span class="share"><span class="glyphicon glyphicon-share" aria-hidden="true"></span>
@@ -64,8 +64,7 @@
 		<div class="wrap cf">
 			<ul class="cf fl">
 				<li  class="product ds"><a href="products.html"><span
-						class="glyphicon glyphicon-home" aria-hidden="true">
-						<span style="font-family: 微软雅黑"> 产品中心</span>						
+						class="glyphicon glyphicon-home" aria-hidden="true"><span style="font-family: 微软雅黑"> 产品中心</span>						
 				</span>
 				</a>
 				<dl class="pA navSon dN" >
@@ -78,7 +77,7 @@
 				 </dl>
 				</li>
 				<li class="support ds"><a href="service.html"> <span
-						class="glyphicon glyphicon-random" aria-hidden="true" ><span style="font-family: 微软雅黑"> 服务与支持</span></span>
+						class="glyphicon glyphicon-random" aria-hidden="true" ><span style="font-family: 微软雅黑">  服务与支持</span></span>
 						
 				</a>
 					<dl class="pA navSon dN" >
