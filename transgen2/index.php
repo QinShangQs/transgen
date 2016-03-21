@@ -186,7 +186,7 @@ ins#qiao-icon-wrap {
 	<div class="cf wrap">
 		<div class="fl cf file-box">
 			<div>
-				<img src="images/img1.jpg" />
+				<a href="service.html"><img src="images/img1.jpg" /></a>
 			</div>
 			<ul>
 				<?php
@@ -203,7 +203,7 @@ ins#qiao-icon-wrap {
 		</div>
 		<div class="fl cf gongyi-box">
 			<div>
-				<img src="images/gongyi.png" />
+				<a href="job.html"><img src="images/gongyi.png" /></a>
 			</div>
 			<ul>
 				 <?php
@@ -220,7 +220,7 @@ ins#qiao-icon-wrap {
 		</div>
 		<div class="fl cf recruit">
 			<div>
-				<img src="images/zhaopin.jpg" />
+				<a href="news/4.html"><img src="images/zhaopin.jpg" /></a>
 			</div>
 			<ul>
 			<?php

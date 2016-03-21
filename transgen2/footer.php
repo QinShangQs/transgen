@@ -46,11 +46,11 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
         //$(window).scrollTop() = 0;
         //
         <?php
-        		 if(strstr($_SERVER['PHP_SELF'], 'index.php')){
+        		 //if(strstr($_SERVER['PHP_SELF'], 'index.php')){
         		 	?>
-        		 	$("#jquery-lightbox").css('left',($(window).width() - 760)*.5 + 'px');
+        		 	//$("#jquery-lightbox").css('left',($(window).width() - 760)*.5 + 'px');
         		 	<?php
-        		 }
+        		 //}
         		?>
     }
 
