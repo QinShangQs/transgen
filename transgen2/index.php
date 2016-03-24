@@ -86,7 +86,7 @@ ins#qiao-icon-wrap {
 							while ( $rsad = mysql_fetch_array ( $sqlad ) ) {
 								?>
 			                <div class='item' id='item1' onclick="location.href='<?php echo $rsad['weburl'];?>'" 
-			                title="<?php echo $rsad['alt'];?>" style="background:url(<?php echo $rsad['pic'];?>);  ">
+			                title="<?php echo $rsad['alt'];?>" style="background:url(<?php echo $rsad['pic'];?>)  no-repeat 50% 50%;background-size: cover;  ">
 							<div class='caption'>
 								<div class='bg'></div>
 							</div>
@@ -203,7 +203,7 @@ ins#qiao-icon-wrap {
 		</div>
 		<div class="fl cf gongyi-box">
 			<div>
-				<a href="job.html"><img src="images/gongyi.png" /></a>
+				<a href="job.html"><img src="images/gongyi.jpg" /></a>
 			</div>
 			<ul>
 				 <?php
@@ -237,7 +237,9 @@ ins#qiao-icon-wrap {
 	</div>
 
 
-	<div style="; top: 345px; cursor: pointer; position: fixed;z-index:100;background: white">
+	<!--
+	<div style="; top: 345px; cursor: pointer; position: fixed;z-index:100;background: white">-->
+	<div style="right: 0; top: 345px; cursor: pointer; position: fixed;z-index:100;background: white">
 		<img src="images/wenxin.png" width="110" height="128"
 			alt="全式金生物官方微信号--'transgen'">
 
@@ -326,5 +328,3 @@ ins#qiao-icon-wrap {
 </script>
 </body>
 </html>
-
-

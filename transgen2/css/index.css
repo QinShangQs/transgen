@@ -357,13 +357,15 @@ rotate
 .winContent {
 	width: 1000px;
 	height: 460px;
-	margin: auto
+	margin: auto;
+	min-height:620px;
 }
 
 .win980 {
 	width: 980px;
 	margin-top: 10px;
-	margin-bottom: 10px
+	margin-bottom: 10px;
+	
 }
 
 .comme {

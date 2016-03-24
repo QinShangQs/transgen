@@ -40,7 +40,9 @@ table{border-collapse:collapse;border-spacing:0;}
 /*#main{background:url(../images/bigBg.png) repeat-x;}*/
 #main{background:#FFF}
 .wid1060{width:1060px;}
-.wid980{width:1050px;background:none repeat scroll 0% 0% #FFF;padding:0px 30px 10px 30px;
+.wid980{width:1050px;background:none repeat scroll 0% 0% #FFF;
+padding:0px 30px 10px 30px;
+min-height:620px;
 /*box-shadow:0px 0px 5px #dfdfdf;*/
 }
 /*--------------------------top---------------------------------*/
@@ -83,9 +85,9 @@ table{border-collapse:collapse;border-spacing:0;}
 .navSon a.you:hover{color:#666;background:rgba(229, 229, 229, 0.8) no-repeat scroll 0 0 !important;filter:Alpha(opacity=80);background:#e5e5e5;}
 
 .rTop{left:140px;top:0;}
-.leis{width:269.79px;height:20px}
+.leis{height:20px}
 
-.navSon{z-index:10;top:30px;}
+.navSon{z-index:10;top:30px;width:100%}
 .lef53{left:-53px;}
 
 .navSon-1 a.zuo{width:200px;padding-right:15px;text-align:right;}
